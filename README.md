@@ -1,2 +1,3 @@
 # DS-Algorithms-with-SK
-"Welcome to the DSA repository! This is a collection of various DSA problems, along with their solutions in Java programming language.
+"Welcome to the Data Structures and Algorithms repository! This is a collection of various data structures and algorithms problems, along with their solutions in Java programming language primarily. Here you will find solutions to common data structures and algorithms problems, as well as more advanced and challenging ones. The repository is constantly updated with new problems and solutions, making it a great resource for anyone looking to improve their skills in data structures and algorithms. Whether you are a beginner or an experienced programmer, this repository is sure to have something for you. Feel free to browse the problems, try solving them on your own, and use the solutions as a reference if needed. Happy coding!"
+
