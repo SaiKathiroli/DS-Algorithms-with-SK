@@ -1,0 +1,30 @@
+Question: https://www.geeksforgeeks.org/sum-triangle-from-array/
+
+
+
+import java.util.*;
+
+public class SumTri
+{
+    public static void triangle(int[] arr)
+    {
+        if(arr.length < 1 )
+        {
+            return;
+        }
+
+        int[] y = new int[arr.length-1];
+        for(int i=0; i<arr.length-1 ;i++)
+        {
+            y[i] = arr[i] + arr[i+1];
+        }
+        triangle(y);
+        System.out.println(Arrays.toString(arr));
+    }
+
+    public static void main(String[] args)
+    {
+        int[] t = {5,4,3,2,1};
+        triangle(t);
+    }
+}
